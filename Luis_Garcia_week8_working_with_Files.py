@@ -42,4 +42,4 @@ else:
                 text = file_1.readlines()# this allows shows the user the file contents as program output
                 print(f"\nThe following information has been saved: {text}  --- added to file ---> {full_path}")
     except FileExistsError:#in the event of any exceptions
-        print("File exists")
+        print("please try again ")
