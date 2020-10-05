@@ -4,11 +4,7 @@
 
 import os
 
-#Gather user information
-user_name = input("What is your name?: ")
-user_address = input("What is your address?: ")
-user_phone = input("What is your phone number?: ")
-user_profile = (f'{user_name.title()} , {user_address.title()} , {user_phone}')
+
 
 #gather and show information that will assist the user in chosing directories and files
 current_directory = os.getcwd()
@@ -20,6 +16,11 @@ user_file = input("What is your file name?: ")
 user_file = user_file + ".txt"
 full_path = (f'{user_directory}\\{user_file}')
 
+#Gather user information
+user_name = input("What is your name?: ")
+user_address = input("What is your address?: ")
+user_phone = input("What is your phone number?: ")
+user_profile = (f'{user_name.title()} , {user_address.title()} , {user_phone}')
 
 
 
